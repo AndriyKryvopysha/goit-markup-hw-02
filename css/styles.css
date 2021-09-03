@@ -1,6 +1,16 @@
 /* font-family: Raleway;
 font-family: Roboto;
  */
+body {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 14px;
+  line-height: 1.71;
+  color: #212121;
+}
+
+/* Шапка */
 .logo {
   font-family: Raleway;
   font-style: normal;
@@ -8,10 +18,57 @@ font-family: Roboto;
   font-size: 26px;
   line-height: 1.19;
   color: #2196f3;
+  text-decoration: none;
 }
 .logo-header {
   color: black;
 }
+/* Навигация */
+ul {
+  list-style-type: none;
+}
+.nav-link {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: #212121;
+}
+.nav-link:hover {
+  color: #2196f3;
+}
+.nav-contact {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: #757575;
+}
+.nav-contact:hover {
+  color: #2196f3;
+}
+/* Герой */
+.hero {
+  background-color: #2f303a;
+}
+.hero h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+}
+.hero button {
+  font-family: Roboto;
+  background-color: #2196f3;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+}
+
+/* Подвал */
 .logo-footer {
   color: white;
 }
