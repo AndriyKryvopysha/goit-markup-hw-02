@@ -2,10 +2,9 @@
 font-family: Roboto;
  */
 body {
-  font-family: Roboto -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
-    Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: Roboto;
   font-style: normal;
-  font-weight: 400px;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   color: #212121;
@@ -153,6 +152,7 @@ ul {
 
 .foot-contact {
   text-decoration: none;
+  font-style: normal;
   color: rgba(255, 255, 255, 0.6);
   line-height: 1.71;
 }
